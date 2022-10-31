@@ -6,14 +6,13 @@ import { AppComponent } from './app.component';
 import { PersonalDetailsComponent } from './personal-details/personal-details.component';
 import { AddressDetailsComponent } from './address-details/address-details.component';
 import { FormsModule } from '@angular/forms';
-import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     PersonalDetailsComponent,
     AddressDetailsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

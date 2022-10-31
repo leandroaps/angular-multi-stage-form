@@ -1,14 +1,14 @@
 <table>
   <tr>
     <td>First Name</td>
-    <td><input type="text" [(ngModel)]="personalDetails.firstName" #firstName /></td>
+    <td><input type="text" [(ngModel)]="personalDetails.firstName" #firstName class="form-label" /></td>
   </tr>
   <tr>
     <td>Last Name</td>
-    <td><input type="text" [(ngModel)]="personalDetails.lastName" #lastName /></td>
+    <td><input type="text" [(ngModel)]="personalDetails.lastName" #lastName class="form-label" /></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td><input type="button" value="Next" routerLink="addressdetails" /></td>
+    <td><button value="Next" routerLink="addressdetails" class="btn btn-primary">Próximo</button></td>
   </tr>
 </table>

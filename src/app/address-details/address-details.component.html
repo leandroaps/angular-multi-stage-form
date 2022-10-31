@@ -1,10 +1,10 @@
 <table>
   <tr>
     <td>Full Address</td>
-    <td><input type="text" [(ngModel)]="addressDetails.fullAddress" #fullAddress /></td>
+    <td><input type="text" [(ngModel)]="addressDetails.fullAddress" #fullAddress class="form-label" /></td>
   </tr>
   <tr>
-    <td><input type="button" value="Back" routerLink="" /></td>
-    <td><input type="button" value="Complete" (click)="submit()" /></td>
+    <td><button type="button" value="Back" routerLink="" class="btn btn-primary">Voltar</button></td>
+    <td><button type="button" value="Complete" (click)="submit()" class="btn btn-primary">Enviar</button></td>
   </tr>
 </table>
